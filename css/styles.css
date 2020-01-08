@@ -1,0 +1,87 @@
+.feature {
+  padding:5% 5% 3%;
+  margin:5% 10%;
+  position:static;
+  z-index:1;
+}
+.icon{
+  text-align: center;
+}
+.title-section{
+  background-color: #ef8172;
+}
+h1{
+  font-family: 'Montserrat-bold',sans-serif;
+  font-size: 3rem;
+  font-weight:800;
+  line-height:1.5;
+  color:#fff;
+}
+h2{
+  font-family:'Montserrat-bold',sans-serif;
+  font-weight:800;
+  font-size: 3rem;
+  line-height: 1;
+}
+h3{
+  font-family:'Montserrat-bold',sans-serif;
+  font-weight:800;
+}
+.fo{
+  text-align: center;
+  font-size: 40px;
+}
+.dog{
+  width:10%;
+  border-radius:100%;
+  text-align: center;
+}
+.image{
+  width: 50%;
+  transform:rotate(25deg);
+}
+.but{
+  margin:5% 3% 5%;
+}
+.name{
+  font-size: 40px;
+  font-family: "Ubuntu";
+}
+.testm{
+  background-color: #ef8172;
+}
+.test{
+  text-align: center;
+  margin:5% 10%;
+  padding: 3% 5%;
+  color:#fff;
+}
+.test2{
+  text-align: center;
+}
+.pricing{
+  padding:40px 40px;
+}
+.footer{
+  padding-top:40px;
+  padding-bottom: 40px;
+  background-color: #ef8172;
+  text-align: center;
+  color:#fff;
+}
+@media (max-width:1028px){
+  .title-section{
+    text-align: center;
+  }
+    .image{
+    position:static;
+    transform:rotate(0);
+}
+}
+.ic{
+  padding-bottom: 15px;
+  color:#ef8172;
+}
+.ic:hover{
+  color:#ff4c68;
+}
